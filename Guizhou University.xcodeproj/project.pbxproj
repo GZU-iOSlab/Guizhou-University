@@ -21,6 +21,11 @@
 		56C58B6D1A47C6BD007E1B6B /* Guizhou_UniversityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B6C1A47C6BD007E1B6B /* Guizhou_UniversityTests.m */; };
 		56C58B781A47C7C6007E1B6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B771A47C7C6007E1B6B /* ViewController.m */; };
 		56C58B7B1A4848C4007E1B6B /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B7A1A4848C4007E1B6B /* TabBarViewController.m */; };
+		56C58B7E1A485A0B007E1B6B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B7D1A485A0B007E1B6B /* MainViewController.m */; };
+		56C58B811A485AA9007E1B6B /* CyclopediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B801A485AA9007E1B6B /* CyclopediaViewController.m */; };
+		56C58B841A485ACD007E1B6B /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B831A485ACD007E1B6B /* NavigationViewController.m */; };
+		56C58B871A485B6F007E1B6B /* DiscussionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B861A485B6F007E1B6B /* DiscussionViewController.m */; };
+		56C58B8A1A485B99007E1B6B /* CampusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B891A485B99007E1B6B /* CampusViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +59,16 @@
 		56C58B771A47C7C6007E1B6B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56C58B791A4848C4007E1B6B /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		56C58B7A1A4848C4007E1B6B /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		56C58B7C1A485A0B007E1B6B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		56C58B7D1A485A0B007E1B6B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		56C58B7F1A485AA9007E1B6B /* CyclopediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CyclopediaViewController.h; sourceTree = "<group>"; };
+		56C58B801A485AA9007E1B6B /* CyclopediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CyclopediaViewController.m; sourceTree = "<group>"; };
+		56C58B821A485ACD007E1B6B /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		56C58B831A485ACD007E1B6B /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		56C58B851A485B6F007E1B6B /* DiscussionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscussionViewController.h; sourceTree = "<group>"; };
+		56C58B861A485B6F007E1B6B /* DiscussionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscussionViewController.m; sourceTree = "<group>"; };
+		56C58B881A485B99007E1B6B /* CampusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CampusViewController.h; sourceTree = "<group>"; };
+		56C58B891A485B99007E1B6B /* CampusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CampusViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +134,16 @@
 				56C58B771A47C7C6007E1B6B /* ViewController.m */,
 				56C58B791A4848C4007E1B6B /* TabBarViewController.h */,
 				56C58B7A1A4848C4007E1B6B /* TabBarViewController.m */,
+				56C58B7C1A485A0B007E1B6B /* MainViewController.h */,
+				56C58B7D1A485A0B007E1B6B /* MainViewController.m */,
+				56C58B7F1A485AA9007E1B6B /* CyclopediaViewController.h */,
+				56C58B801A485AA9007E1B6B /* CyclopediaViewController.m */,
+				56C58B821A485ACD007E1B6B /* NavigationViewController.h */,
+				56C58B831A485ACD007E1B6B /* NavigationViewController.m */,
+				56C58B851A485B6F007E1B6B /* DiscussionViewController.h */,
+				56C58B861A485B6F007E1B6B /* DiscussionViewController.m */,
+				56C58B881A485B99007E1B6B /* CampusViewController.h */,
+				56C58B891A485B99007E1B6B /* CampusViewController.m */,
 				56C58B591A47C6BC007E1B6B /* Images.xcassets */,
 				56C58B4E1A47C6BC007E1B6B /* Supporting Files */,
 			);
@@ -249,9 +274,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56C58B871A485B6F007E1B6B /* DiscussionViewController.m in Sources */,
 				56C58B7B1A4848C4007E1B6B /* TabBarViewController.m in Sources */,
+				56C58B811A485AA9007E1B6B /* CyclopediaViewController.m in Sources */,
+				56C58B841A485ACD007E1B6B /* NavigationViewController.m in Sources */,
 				56C58B781A47C7C6007E1B6B /* ViewController.m in Sources */,
 				56C58B581A47C6BC007E1B6B /* AppDelegate.m in Sources */,
+				56C58B8A1A485B99007E1B6B /* CampusViewController.m in Sources */,
+				56C58B7E1A485A0B007E1B6B /* MainViewController.m in Sources */,
 				56C58B541A47C6BC007E1B6B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
