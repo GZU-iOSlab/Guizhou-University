@@ -13,12 +13,25 @@
 @end
 
 @implementation TabBarViewController
-
+@synthesize mainNav,mapNav,cyclopediaNav,discussionNav,campusNav;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        MainViewController * mainViewController = [[MainViewController alloc]init];
+        CyclopediaViewController * cyclopediaViewController = [[CyclopediaViewController alloc]init];
+        NavigationViewController * mapViewController = [[NavigationViewController alloc]init];
+        DiscussionViewController * discussionViewController = [[DiscussionViewController alloc]init];
+        CampusViewController * campusViewController = [[CampusViewController alloc]init];
+        
+        self.mainNav = [[UINavigationController alloc]initWithRootViewController:mainViewController];
+        self.cyclopediaNav = [[UINavigationController alloc]initWithRootViewController:cyclopediaViewController];
+        self.mapNav = [[UINavigationController alloc]initWithRootViewController:mapViewController];
+        self.discussionNav = [[UINavigationController alloc]initWithRootViewController:discussionViewController];;
+        self.campusNav = [[UINavigationController alloc]initWithRootViewController:campusViewController];
+        
+        self.viewControllers = [NSArray arrayWithObjects:self.mainNav,self.cyclopediaNav,self.mapNav,self.discussionNav,self.campusNav, nil];
     }
     return self;
 }

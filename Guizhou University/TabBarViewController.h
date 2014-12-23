@@ -14,9 +14,10 @@
 #import "CampusViewController.h"
 
 @interface TabBarViewController : UITabBarController
-@property (nonatomic,retain)  MainViewController * mainViewController;
-@property (nonatomic,retain)  CyclopediaViewController * cyclopediaViewController;
-@property (nonatomic,retain)  NavigationViewController * cavigationViewController;
-@property (nonatomic,retain)  DiscussionViewController * discussionViewController;
-@property (nonatomic,retain)  CampusViewController * campusViewController;
+
+@property (nonatomic,retain) UINavigationController * mainNav;
+@property (nonatomic,retain) UINavigationController * cyclopediaNav;
+@property (nonatomic,retain) UINavigationController * mapNav;
+@property (nonatomic,retain) UINavigationController * discussionNav;
+@property (nonatomic,retain) UINavigationController * campusNav;
 @end

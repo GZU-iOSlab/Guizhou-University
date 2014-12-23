@@ -19,7 +19,6 @@
 		56C58B631A47C6BC007E1B6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C58B4B1A47C6BC007E1B6B /* UIKit.framework */; };
 		56C58B6B1A47C6BD007E1B6B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56C58B691A47C6BD007E1B6B /* InfoPlist.strings */; };
 		56C58B6D1A47C6BD007E1B6B /* Guizhou_UniversityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B6C1A47C6BD007E1B6B /* Guizhou_UniversityTests.m */; };
-		56C58B781A47C7C6007E1B6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B771A47C7C6007E1B6B /* ViewController.m */; };
 		56C58B7B1A4848C4007E1B6B /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B7A1A4848C4007E1B6B /* TabBarViewController.m */; };
 		56C58B7E1A485A0B007E1B6B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B7D1A485A0B007E1B6B /* MainViewController.m */; };
 		56C58B811A485AA9007E1B6B /* CyclopediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C58B801A485AA9007E1B6B /* CyclopediaViewController.m */; };
@@ -55,8 +54,6 @@
 		56C58B681A47C6BD007E1B6B /* Guizhou UniversityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Guizhou UniversityTests-Info.plist"; sourceTree = "<group>"; };
 		56C58B6A1A47C6BD007E1B6B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		56C58B6C1A47C6BD007E1B6B /* Guizhou_UniversityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Guizhou_UniversityTests.m; sourceTree = "<group>"; };
-		56C58B761A47C7C6007E1B6B /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		56C58B771A47C7C6007E1B6B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		56C58B791A4848C4007E1B6B /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
 		56C58B7A1A4848C4007E1B6B /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
 		56C58B7C1A485A0B007E1B6B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -130,8 +127,6 @@
 			children = (
 				56C58B561A47C6BC007E1B6B /* AppDelegate.h */,
 				56C58B571A47C6BC007E1B6B /* AppDelegate.m */,
-				56C58B761A47C7C6007E1B6B /* ViewController.h */,
-				56C58B771A47C7C6007E1B6B /* ViewController.m */,
 				56C58B791A4848C4007E1B6B /* TabBarViewController.h */,
 				56C58B7A1A4848C4007E1B6B /* TabBarViewController.m */,
 				56C58B7C1A485A0B007E1B6B /* MainViewController.h */,
@@ -278,7 +273,6 @@
 				56C58B7B1A4848C4007E1B6B /* TabBarViewController.m in Sources */,
 				56C58B811A485AA9007E1B6B /* CyclopediaViewController.m in Sources */,
 				56C58B841A485ACD007E1B6B /* NavigationViewController.m in Sources */,
-				56C58B781A47C7C6007E1B6B /* ViewController.m in Sources */,
 				56C58B581A47C6BC007E1B6B /* AppDelegate.m in Sources */,
 				56C58B8A1A485B99007E1B6B /* CampusViewController.m in Sources */,
 				56C58B7E1A485A0B007E1B6B /* MainViewController.m in Sources */,
@@ -481,6 +475,7 @@
 				56C58B721A47C6BD007E1B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56C58B731A47C6BD007E1B6B /* Build configuration list for PBXNativeTarget "Guizhou UniversityTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +484,7 @@
 				56C58B751A47C6BD007E1B6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
