@@ -20,6 +20,8 @@
     if (self) {
         // Custom initialization
         self.title = @"111";
+        ConnectionAPI * con = [[ConnectionAPI alloc]init];
+        [con doQuery];
     }
     return self;
 }

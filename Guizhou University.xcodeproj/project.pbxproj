@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		56292FDF1A4912B700A73DFB /* ConnectionAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 56292FDE1A4912B700A73DFB /* ConnectionAPI.m */; };
 		56C58B481A47C6BC007E1B6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C58B471A47C6BC007E1B6B /* Foundation.framework */; };
 		56C58B4A1A47C6BC007E1B6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C58B491A47C6BC007E1B6B /* CoreGraphics.framework */; };
 		56C58B4C1A47C6BC007E1B6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C58B4B1A47C6BC007E1B6B /* UIKit.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56292FDD1A4912B700A73DFB /* ConnectionAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionAPI.h; sourceTree = "<group>"; };
+		56292FDE1A4912B700A73DFB /* ConnectionAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionAPI.m; sourceTree = "<group>"; };
 		56C58B441A47C6BC007E1B6B /* Guizhou University.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guizhou University.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56C58B471A47C6BC007E1B6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		56C58B491A47C6BC007E1B6B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		56292FDC1A49127E00A73DFB /* tab */ = {
+			isa = PBXGroup;
+			children = (
+				56C58B7C1A485A0B007E1B6B /* MainViewController.h */,
+				56C58B7D1A485A0B007E1B6B /* MainViewController.m */,
+				56C58B7F1A485AA9007E1B6B /* CyclopediaViewController.h */,
+				56C58B801A485AA9007E1B6B /* CyclopediaViewController.m */,
+				56C58B821A485ACD007E1B6B /* NavigationViewController.h */,
+				56C58B831A485ACD007E1B6B /* NavigationViewController.m */,
+				56C58B851A485B6F007E1B6B /* DiscussionViewController.h */,
+				56C58B861A485B6F007E1B6B /* DiscussionViewController.m */,
+				56C58B881A485B99007E1B6B /* CampusViewController.h */,
+				56C58B891A485B99007E1B6B /* CampusViewController.m */,
+			);
+			name = tab;
+			sourceTree = "<group>";
+		};
 		56C58B3B1A47C6BC007E1B6B = {
 			isa = PBXGroup;
 			children = (
@@ -129,16 +149,9 @@
 				56C58B571A47C6BC007E1B6B /* AppDelegate.m */,
 				56C58B791A4848C4007E1B6B /* TabBarViewController.h */,
 				56C58B7A1A4848C4007E1B6B /* TabBarViewController.m */,
-				56C58B7C1A485A0B007E1B6B /* MainViewController.h */,
-				56C58B7D1A485A0B007E1B6B /* MainViewController.m */,
-				56C58B7F1A485AA9007E1B6B /* CyclopediaViewController.h */,
-				56C58B801A485AA9007E1B6B /* CyclopediaViewController.m */,
-				56C58B821A485ACD007E1B6B /* NavigationViewController.h */,
-				56C58B831A485ACD007E1B6B /* NavigationViewController.m */,
-				56C58B851A485B6F007E1B6B /* DiscussionViewController.h */,
-				56C58B861A485B6F007E1B6B /* DiscussionViewController.m */,
-				56C58B881A485B99007E1B6B /* CampusViewController.h */,
-				56C58B891A485B99007E1B6B /* CampusViewController.m */,
+				56292FDD1A4912B700A73DFB /* ConnectionAPI.h */,
+				56292FDE1A4912B700A73DFB /* ConnectionAPI.m */,
+				56292FDC1A49127E00A73DFB /* tab */,
 				56C58B591A47C6BC007E1B6B /* Images.xcassets */,
 				56C58B4E1A47C6BC007E1B6B /* Supporting Files */,
 			);
@@ -277,6 +290,7 @@
 				56C58B8A1A485B99007E1B6B /* CampusViewController.m in Sources */,
 				56C58B7E1A485A0B007E1B6B /* MainViewController.m in Sources */,
 				56C58B541A47C6BC007E1B6B /* main.m in Sources */,
+				56292FDF1A4912B700A73DFB /* ConnectionAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
